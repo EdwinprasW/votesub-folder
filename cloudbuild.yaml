@@ -5,5 +5,5 @@ steps:
     - name: node
       entrypoint: yarn
       args: ['build']
-    - name: gcr.io/	if-b-2/firebase
+    - name: gcr.io/if-b-2/firebase
       args: ['deploy', '--project=if-b-2', '--only=hosting']
